@@ -7,5 +7,5 @@ const porta = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-    res.sendFile(caminho.join(__dirname,"public","casa.html"));
+    res.sendFile(caminho.join(__dirname,"public","my_drugs.html"));
 });
